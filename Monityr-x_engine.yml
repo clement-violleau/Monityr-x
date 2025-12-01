@@ -24,7 +24,7 @@ cellIdPreamble: "cell-"
 gradientMode: "hue"
 cells:
   # ---------- ALGORILLA LOGS ----------
-  algorilla_logs:
+  algorilla_logs_status:
     dataRef: "algorilla_logs"
     label:
       separator: "replace"
@@ -303,6 +303,7 @@ cells:
         - {color: "red", level: 100}
         - {color: "orange", level: 500}
         - {color: "green", level: 2000}
+
 
 
 
