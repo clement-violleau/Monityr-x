@@ -25,6 +25,8 @@ gradientMode: "hue"
 cells:
   # ---------- ALGORILLA LOGS ----------
   algorilla_logs_status:
+    link:
+      url: "http://192.168.10.231:3000/d/n_nxrE_mk/elasticsearch"
     dataRef: "algorilla_logs"
     label:
       #separator: "replace"
@@ -36,6 +38,8 @@ cells:
         - {color: "semi-dark-green", level: 10000}
   
   algorilla_alarms_status:
+    link:
+      url: "http://192.168.10.231:3000/d/n_nxrE_mk/elasticsearch"
     dataRef: "algorilla_alarms"
     label:
       #separator: "replace"
@@ -47,6 +51,8 @@ cells:
         - {color: "semi-dark-green", level: 10000}
   
   config_status:
+    link:
+      url: "http://192.168.10.231:3000/d/n_nxrE_mk/elasticsearch"
     dataRef: "config"
     label:
       #separator: "replace"
@@ -58,6 +64,8 @@ cells:
         - {color: "semi-dark-green", level: 10000}
 
   coraline_alarms_status:
+    link:
+      url: "http://192.168.10.231:3000/d/n_nxrE_mk/elasticsearch"
     dataRef: "coraline_alarms"
     label:
       #separator: "replace"
@@ -303,6 +311,7 @@ cells:
         - {color: "red", level: 100}
         - {color: "orange", level: 500}
         - {color: "green", level: 2000}
+
 
 
 
