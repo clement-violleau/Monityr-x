@@ -24,7 +24,7 @@ cellIdPreamble: "cell-"
 gradientMode: "hue"
 cells:
   # ---------- ALGORILLA LOGS ----------
-  ES_algorilla_logs:
+  algorilla_logs_status:
     link:
       url: "http://192.168.10.231:3000/d/n_nxrE_mk/elasticsearch"
     dataRef: "ES_algorilla_logs"
@@ -38,8 +38,8 @@ cells:
         - {color: "semi-dark-yellow", level: 2}
         - {color: "semi-dark-red", level: 3}
   
-  ES_algorilla_logs_docs:
-    dataRef: "ES_algorilla_logs_docs"
+  algorilla_logs_docs:
+    dataRef: "algorilla_logs"
     label:
       separator: "replace"
       units: "short"
@@ -286,6 +286,7 @@ cells:
         - {color: "red", level: 100}
         - {color: "orange", level: 500}
         - {color: "green", level: 2000}
+
 
 
 
