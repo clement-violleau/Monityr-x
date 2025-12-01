@@ -52,8 +52,8 @@ cells:
         - {color: "red", level: 0}
         - {color: "_", level: 1}
 
-  AlertsAlgorilla:
-    dataRef: "totalAlerts"
+  CoralineAlarms:
+    dataRef: "CoralineAlarms"
     label:
       separator: "colon"
       units: "short"
@@ -258,4 +258,5 @@ cells:
         - {color: "red", level: 100}
         - {color: "orange", level: 500}
         - {color: "green", level: 2000}
+
 
