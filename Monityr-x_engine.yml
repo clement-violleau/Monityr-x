@@ -23,8 +23,23 @@ test:
 cellIdPreamble: "cell-"
 gradientMode: "hue"
 cells:
-  EL_coraline_alarms_docs:
-    dataRef: "EL_coraline_alarms_docs"
+  # ---------- ALGORILLA LOGS ----------
+  EL_algorilla_logs:
+    link:
+      url: "http://192.168.10.231:3000/d/n_nxrE_mk/elasticsearch"
+    dataRef: "ES_algorilla_logs"
+    label:
+      #separator: "cr"
+      #units: "short"
+      #unitsPostfix: "(msg)"
+    fillColor:
+      thresholds:
+        - {color: "semi-dark-green", level: 1}
+        - {color: "semi-dark-yellow", level: 2}
+        - {color: "semi-dark-red", level: 3}
+  
+  EL_algorilla_logs_docs:
+    dataRef: "ES_algorilla_logs_docs"
     label:
       separator: "replace"
       units: "short"
@@ -35,7 +50,7 @@ cells:
       #thresholds:
         #- {color: "red", level: 0}
         #- {color: "green", level: 1}
-  
+  # ---------- ALGORILLA LOGS ----------
   KAFKA:
     link:
       url: "https://app.diagrams.net/?p=svgdata"
@@ -271,6 +286,7 @@ cells:
         - {color: "red", level: 100}
         - {color: "orange", level: 500}
         - {color: "green", level: 2000}
+
 
 
 
