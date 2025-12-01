@@ -50,10 +50,10 @@ cells:
         - {color: "semi-dark-yellow", level: 1000}
         - {color: "semi-dark-green", level: 10000}
   
-  config_status:
+  coraline_alarms_status:
     link:
       url: "http://192.168.10.231:3000/d/n_nxrE_mk/elasticsearch"
-    dataRef: "config"
+    dataRef: "coraline_alarms"
     label:
       separator: "cr"
       units: "short"
@@ -62,11 +62,11 @@ cells:
         - {color: "semi-dark-red", level: 0}
         - {color: "semi-dark-yellow", level: 1000}
         - {color: "semi-dark-green", level: 10000}
-
-  coraline_alarms_status:
+  
+  config_status:
     link:
       url: "http://192.168.10.231:3000/d/n_nxrE_mk/elasticsearch"
-    dataRef: "coraline_alarms"
+    dataRef: "config"
     label:
       separator: "cr"
       units: "short"
@@ -311,6 +311,7 @@ cells:
         - {color: "red", level: 100}
         - {color: "orange", level: 500}
         - {color: "green", level: 2000}
+
 
 
 
