@@ -39,7 +39,7 @@ cells:
   
   algorilla_alarms_status:
     link:
-      url: "http://192.168.10.231:3000/d/n_nxrE_mk/elasticsearch"
+      url: "https://app.diagrams.net/?p=svgdata"
     dataRef: "algorilla_alarms"
     label:
       separator: "replace"
@@ -311,6 +311,7 @@ cells:
         - {color: "red", level: 100}
         - {color: "orange", level: 500}
         - {color: "green", level: 2000}
+
 
 
 
