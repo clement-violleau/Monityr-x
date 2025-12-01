@@ -29,7 +29,7 @@ cells:
       url: "http://192.168.10.231:3000/d/n_nxrE_mk/elasticsearch"
     dataRef: "algorilla_logs"
     label:
-      separator: "replace"
+      separator: "cr"
       units: "short"
     fillColor:
       thresholds:
@@ -311,6 +311,7 @@ cells:
         - {color: "red", level: 100}
         - {color: "orange", level: 500}
         - {color: "green", level: 2000}
+
 
 
 
