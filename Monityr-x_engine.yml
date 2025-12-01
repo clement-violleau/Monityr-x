@@ -38,7 +38,29 @@ cells:
   algorilla_alarms:
     dataRef: "algorilla_alarms"
     label:
-      separator: "cr"
+      separator: "replace"
+      units: "short"
+    fillColor:
+      thresholds:
+        - {color: "semi-dark-red", level: 0}
+        - {color: "semi-dark-yellow", level: 1000}
+        - {color: "semi-dark-green", level: 10000}
+  
+  config:
+    dataRef: "config"
+    label:
+      separator: "replace"
+      units: "short"
+    fillColor:
+      thresholds:
+        - {color: "semi-dark-red", level: 0}
+        - {color: "semi-dark-yellow", level: 1000}
+        - {color: "semi-dark-green", level: 10000}
+
+  coraline_alarms:
+    dataRef: "coraline_alarms"
+    label:
+      separator: "replace"
       units: "short"
     fillColor:
       thresholds:
@@ -281,6 +303,7 @@ cells:
         - {color: "red", level: 100}
         - {color: "orange", level: 500}
         - {color: "green", level: 2000}
+
 
 
 
