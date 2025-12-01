@@ -30,9 +30,6 @@ cells:
     dataRef: "algorilla_logs"
     label:
       separator: "cr"
-      units: "short"
-      unitsPostfix: "msg"
-      decimalPoints: 2
     fillColor:
       thresholds:
         - {color: "semi-dark-red", level: 0}
@@ -45,9 +42,6 @@ cells:
     dataRef: "algorilla_alarms"
     label:
       separator: "cr"
-      units: "short"
-      unitsPostfix: "msg"
-      decimalPoints: 2
     fillColor:
       thresholds:
         - {color: "semi-dark-red", level: 0}
@@ -289,6 +283,7 @@ cells:
         - {color: "red", level: 100}
         - {color: "orange", level: 500}
         - {color: "green", level: 2000}
+
 
 
 
