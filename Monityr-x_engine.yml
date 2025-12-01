@@ -32,8 +32,8 @@ cells:
     fillColor:
       thresholds:
         - {color: "semi-dark-red", level: 0}
-        - {color: "semi-dark-yellow", level: 1000}
-        - {color: "semi-dark-green", level: 10000}
+        - {color: "semi-dark-yellow", level: 100}
+        - {color: "semi-dark-green", level: 1000}
   # ---------- ALGORILLA ALARMS ----------
   algorilla_alarms_status:
     dataRef: "algorilla_alarms"
@@ -43,8 +43,8 @@ cells:
     fillColor:
       thresholds:
         - {color: "semi-dark-red", level: 0}
-        - {color: "semi-dark-yellow", level: 1000}
-        - {color: "semi-dark-green", level: 10000}
+        - {color: "semi-dark-yellow", level: 100}
+        - {color: "semi-dark-green", level: 1000}
   # ---------- CORALINE ALARMS ----------
   coraline_alarms_status:
     dataRef: "coraline_alarms"
@@ -54,8 +54,8 @@ cells:
     fillColor:
       thresholds:
         - {color: "semi-dark-red", level: 0}
-        - {color: "semi-dark-yellow", level: 1000}
-        - {color: "semi-dark-green", level: 10000}
+        - {color: "semi-dark-yellow", level: 100}
+        - {color: "semi-dark-green", level: 1000}
   # ---------- CONFIG ----------
   config_status:
     dataRef: "config"
@@ -65,7 +65,7 @@ cells:
     fillColor:
       thresholds:
         - {color: "semi-dark-red", level: 0}
-        - {color: "semi-dark-yellow", level: 1000}
-        - {color: "semi-dark-green", level: 10000}
+        - {color: "semi-dark-green", level: 1}
         
+
 
