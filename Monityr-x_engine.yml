@@ -35,7 +35,7 @@ cells:
         - {color: "semi-dark-yellow", level: 1000}
         - {color: "semi-dark-green", level: 10000}
   
-  algorilla_alarms:
+  algorilla_alarms_status:
     dataRef: "algorilla_alarms"
     label:
       separator: "replace"
@@ -46,7 +46,7 @@ cells:
         - {color: "semi-dark-yellow", level: 1000}
         - {color: "semi-dark-green", level: 10000}
   
-  config:
+  config_status:
     dataRef: "config"
     label:
       separator: "replace"
@@ -57,7 +57,7 @@ cells:
         - {color: "semi-dark-yellow", level: 1000}
         - {color: "semi-dark-green", level: 10000}
 
-  coraline_alarms:
+  coraline_alarms_status:
     dataRef: "coraline_alarms"
     label:
       separator: "replace"
@@ -303,6 +303,7 @@ cells:
         - {color: "red", level: 100}
         - {color: "orange", level: 500}
         - {color: "green", level: 2000}
+
 
 
 
