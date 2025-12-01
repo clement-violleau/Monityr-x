@@ -29,8 +29,8 @@ cells:
       url: "http://192.168.10.231:3000/d/n_nxrE_mk/elasticsearch"
     dataRef: "algorilla_logs"
     label:
-      #separator: "replace"
-      #units: "short"
+      separator: "replace"
+      units: "short"
     fillColor:
       thresholds:
         - {color: "semi-dark-red", level: 0}
@@ -42,8 +42,8 @@ cells:
       url: "http://192.168.10.231:3000/d/n_nxrE_mk/elasticsearch"
     dataRef: "algorilla_alarms"
     label:
-      #separator: "replace"
-      #units: "short"
+      separator: "replace"
+      units: "short"
     fillColor:
       thresholds:
         - {color: "semi-dark-red", level: 0}
@@ -55,8 +55,8 @@ cells:
       url: "http://192.168.10.231:3000/d/n_nxrE_mk/elasticsearch"
     dataRef: "config"
     label:
-      #separator: "replace"
-      #units: "short"
+      separator: "replace"
+      units: "short"
     fillColor:
       thresholds:
         - {color: "semi-dark-red", level: 0}
@@ -68,8 +68,8 @@ cells:
       url: "http://192.168.10.231:3000/d/n_nxrE_mk/elasticsearch"
     dataRef: "coraline_alarms"
     label:
-      #separator: "replace"
-      #units: "short"
+      separator: "replace"
+      units: "short"
     fillColor:
       thresholds:
         - {color: "semi-dark-red", level: 0}
@@ -311,6 +311,7 @@ cells:
         - {color: "red", level: 100}
         - {color: "orange", level: 500}
         - {color: "green", level: 2000}
+
 
 
 
