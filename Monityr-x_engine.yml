@@ -25,11 +25,10 @@ gradientMode: "hue"
 cells:
   # ---------- ALGORILLA LOGS ----------
   algorilla_logs:
-    link:
-      url: "http://192.168.10.231:3000/d/n_nxrE_mk/elasticsearch"
     dataRef: "algorilla_logs"
     label:
-      separator: "cr"
+      separator: "replace"
+      units: "short"
     fillColor:
       thresholds:
         - {color: "semi-dark-red", level: 0}
@@ -37,11 +36,10 @@ cells:
         - {color: "semi-dark-green", level: 10000}
   
   algorilla_alarms:
-    link:
-      url: "http://192.168.10.231:3000/d/n_nxrE_mk/elasticsearch"
     dataRef: "algorilla_alarms"
     label:
       separator: "cr"
+      units: "short"
     fillColor:
       thresholds:
         - {color: "semi-dark-red", level: 0}
@@ -283,6 +281,7 @@ cells:
         - {color: "red", level: 100}
         - {color: "orange", level: 500}
         - {color: "green", level: 2000}
+
 
 
 
