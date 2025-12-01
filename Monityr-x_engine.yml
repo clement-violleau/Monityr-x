@@ -22,7 +22,20 @@ test:
   
 cellIdPreamble: "cell-"
 gradientMode: "hue"
-cells: 
+cells:
+  EL_coraline_alarms_docs:
+    dataRef: "EL_coraline_alarms_docs"
+    label:
+      separator: "replace"
+      units: "short"
+      unitsPostfix: "docs"
+      decimalPoints: 2
+    labelColor:
+      gradientMode: "hue"
+      #thresholds:
+        #- {color: "red", level: 0}
+        #- {color: "green", level: 1}
+  
   KAFKA:
     link:
       url: "https://app.diagrams.net/?p=svgdata"
@@ -258,5 +271,6 @@ cells:
         - {color: "red", level: 100}
         - {color: "orange", level: 500}
         - {color: "green", level: 2000}
+
 
 
